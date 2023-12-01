@@ -58,9 +58,6 @@ post = Post(
 
 post.add({'type': 'paragraph', 'content': 'This is how you add a new paragraph to your post!'})
 
-# set paywall boundary
-post.add({'type': 'paywall'})
-
 # bolden text
 post.add({'type': "paragraph",
           'content': [{'content': "This is how you "}, {'content': "bolden ", 'marks': [{'type': "strong"}]},
